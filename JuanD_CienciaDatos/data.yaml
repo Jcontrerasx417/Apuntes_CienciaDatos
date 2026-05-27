@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['botas', 'auriculares', 'gafas', 'guantes', 'cascos', 'persona', 'chaleco']
+
+roboflow:
+  workspace: manuel-ybi42
+  project: ppe-factory-bmdcj-vb0jb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/manuel-ybi42/ppe-factory-bmdcj-vb0jb/dataset/1
